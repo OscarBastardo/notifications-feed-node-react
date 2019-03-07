@@ -1,4 +1,4 @@
-# Phrasee Coding Challenge - Notification Feed
+# Notification Feed
 
 ## Overview
 
