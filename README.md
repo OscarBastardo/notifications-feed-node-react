@@ -27,7 +27,7 @@ Ideally this will be delivered as a link to a git repository but a zip file is a
 4. On a different session `cd ../webapp`
 5. `yarn install`
 6. `yarn start`. Webapp will be running on `localhost:3000`
-7. Go to `localhost:3000` in your browser
+7. Wait the web app to compile and go to `localhost:3000` in your browser
 
 ## Commands
 
@@ -51,4 +51,4 @@ For `server`,
 1. For the proposed solution I assume that the notifications are for a specific user from interactions with their content. The user would be the person looking at the notifications page.
 2. The aggregation I decided to support for notifications are the ones most commonly seen in social media: likes to a post and comments to a post.
 3. The service was built using Koa for web server and Mocha/Chai for testing. The web app was built using create-react-app command and react-bootstrap for the visual components.
-4. The notifications don't have any type of datetime to help sorting them, that's part of the reason you see listed the likes first and then the comments. I though about shuffling them to give them a more realistic look but that's not useful in terms of functionality.
+4. The notifications don't have any type of datetime to help sorting them, that's part of the reason you see listed the likes first and then the comments. I thought about shuffling them to give them a more realistic look but that's not useful in terms of functionality.
