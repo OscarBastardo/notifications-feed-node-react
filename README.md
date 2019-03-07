@@ -24,7 +24,7 @@ Ideally this will be delivered as a link to a git repository but a zip file is a
 1. `cd service`
 2. `yarn install`
 3. `yarn start`. Service will be running on `localhost:5000`
-4. `cd ../webapp`
+4. On a different session `cd ../webapp`
 5. `yarn install`
 6. `yarn start`. Webapp will be running on `localhost:3000`
 7. Go to `localhost:3000` in your browser
